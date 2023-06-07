@@ -1,14 +1,14 @@
 import { arrayOf, shape, string } from "prop-types";
-import { Link, MenuList, MenuListItem } from "./styles";
+import { Link, MenuList } from "./styles";
 
 export default function Menu({ items }) {
   return (
     <nav>
       <MenuList>
         {items.map(({ name, route }) => (
-          <MenuListItem key={route}>
+          <li key={route}>
             <Link href={route}>{name}</Link>
-          </MenuListItem>
+          </li>
         ))}
       </MenuList>
     </nav>
