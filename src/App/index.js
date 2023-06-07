@@ -1,23 +1,14 @@
 import { CssBaseline, ThemeProvider } from "@mui/material";
-import theme from "./theme";
-import { Header, Menu } from "../ds/molecules";
+import { RouterProvider } from "react-router-dom";
 
-const items = [
-  { name: "Produits", route: "/products" },
-  { name: "Commandes", route: "/orders" },
-  { name: "Finance", route: "/finance" },
-  { name: "Rapports", route: "/reports" },
-  { name: "Messages", route: "/messages" },
-  { name: "Marketplaces", route: "/marketplaces" },
-];
+import theme from "./theme";
+import router from "./router";
 
 export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Header title="Seller App" caption="Bienvenue" />
-      <Menu items={items} />
-      MAIN
+      <RouterProvider router={router} />
     </ThemeProvider>
   );
 }
