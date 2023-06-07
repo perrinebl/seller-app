@@ -20,6 +20,7 @@
     "lint": "eslint --cache .",
     "commit": "git-cz",
     "start": "react-scripts start",
+    "start:api": "json-server --watch data/db.json --port 3004",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -80,6 +81,7 @@
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-testing-library": "^5.11.0",
     "eslint-plugin-xss": "^0.1.12",
-    "git-cz": "^4.9.0"
+    "git-cz": "^4.9.0",
+    "json-server": "^0.17.3"
   }
 }

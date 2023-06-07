@@ -10,6 +10,12 @@ Install dependencies:
 yarn
 ```
 
+Start the dev API server:
+
+```shell
+yarn start:api
+```
+
 Start the dev server:
 
 ```shell
