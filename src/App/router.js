@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 
 import { Layout } from "../ds/templates";
-import { ErrorPage, OrdersPage, ProductsPage } from "../ds/pages";
+import { ErrorPage, HomePage, OrdersPage, ProductsPage } from "../ds/pages";
 
 export default createBrowserRouter([
   {
@@ -11,6 +11,10 @@ export default createBrowserRouter([
     children: [
       {
         index: true,
+        element: <HomePage />,
+      },
+      {
+        path: "products",
         element: <ProductsPage />,
       },
       {

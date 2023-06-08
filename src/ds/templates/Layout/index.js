@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 import { Header, Menu } from "../../molecules";
 
 const items = [
-  { name: "Produits", route: "/" },
+  { name: "Produits", route: "/products" },
   { name: "Commandes", route: "/orders" },
   { name: "Finance", route: "/finance" },
   { name: "Rapports", route: "/reports" },
