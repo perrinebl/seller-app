@@ -25,7 +25,7 @@
     "lint": "eslint --cache .",
     "commit": "git-cz",
     "start": "react-scripts start",
-    "start:api": "json-server --watch data/db.json --port 3004",
+    "start:api": "json-server --watch db.json --port 3004",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
