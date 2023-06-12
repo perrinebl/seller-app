@@ -1,7 +1,13 @@
 import { createBrowserRouter } from "react-router-dom";
 
 import { Layout } from "../ds/templates";
-import { ErrorPage, HomePage, OrdersPage, ProductsPage } from "../ds/pages";
+import {
+  ErrorPage,
+  HomePage,
+  OrdersPage,
+  ProductPage,
+  ProductsPage,
+} from "../ds/pages";
 
 export default createBrowserRouter([
   {
@@ -16,6 +22,10 @@ export default createBrowserRouter([
       {
         path: "products",
         element: <ProductsPage />,
+      },
+      {
+        path: "products/:productId",
+        element: <ProductPage />,
       },
       {
         path: "orders",
