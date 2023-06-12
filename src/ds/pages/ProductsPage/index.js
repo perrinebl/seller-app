@@ -1,5 +1,6 @@
-import { Box } from "@mui/material";
+import { Grid } from "@mui/material";
 import { DataGrid } from "@mui/x-data-grid";
+import { Outlet, useParams } from "react-router-dom";
 import { useProducts } from "../../../hooks";
 
 import {
@@ -20,7 +21,7 @@ const columns = [
     field: "name",
     headerName: "Produit",
     renderCell: ProductLink,
-    width: 350,
+    width: 300,
   },
   {
     field: "condition",
@@ -44,15 +45,24 @@ const columns = [
 
 export default function ProductsPage() {
   const { isLoading, products } = useProducts();
+  const { productId } = useParams();
+
+  const leftWidth = productId ? 7 : 12;
+  const rightWidth = productId ? 5 : 0;
 
   return (
-    <Box sx={{ height: 800, width: "100%" }}>
-      <DataGrid
-        loading={isLoading}
-        columns={columns}
-        rows={products}
-        disableRowSelectionOnClick
-      />
-    </Box>
+    <Grid container>
+      <Grid sx={{ height: 600 }} xs={leftWidth}>
+        <DataGrid
+          loading={isLoading}
+          columns={columns}
+          rows={products}
+          disableRowSelectionOnClick
+        />
+      </Grid>
+      <Grid item component="aside" xs={rightWidth}>
+        <Outlet />
+      </Grid>
+    </Grid>
   );
 }
