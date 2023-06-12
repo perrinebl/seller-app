@@ -1,309 +1,159 @@
 {
   "saleChannels": [
-    { "id": "d781ac95-9d73-466b-8de9-497b07b4bf95", "name": "Danone" },
-    { "id": "be5007c3-c21e-40d6-8b2c-91c52a7f49f1", "name": "Nestlé" },
-    { "id": "85fdc9f6-d0ea-4905-ab4f-6f1f7dcaac87", "name": "Unilever" }
+    { "id": "ebf4927b-3e04-4dce-9278-43505134c931", "name": "Danone" },
+    { "id": "510a42c4-7ec1-4ddd-bc9b-fbe51789295d", "name": "Nestlé" },
+    { "id": "52655c59-d1c3-4889-846c-a3fc44ff7d5a", "name": "Unilever" }
   ],
   "products": [
     {
-      "description": "Cadre raccord brasé de 53 ou 58 %. Jantes en acier émaillées. Pneus “Hiron” 700 x 35, garantis 12 mois. Pignon roue libre à emboitement hexagonal. Frein “Hirondelle” sur jante arrière. Garde-boue métal.",
-      "id": "d129b080-f246-42e9-a8b5-a670f5e3e4b8",
-      "name": "Sans marque Coton Chaise",
-      "imageUrl": "https://picsum.photos/seed/8rYfe/640/640",
-      "price": 87.56,
-      "condition": "new",
-      "stock": 19,
-      "salesChannelId": "d781ac95-9d73-466b-8de9-497b07b4bf95"
+      "description": "Ce magnifique radio-phono comprend un excellent récepteur radioL'ensemble, dans une belle ébénisterie teintée palissandre, forme un très phonique 6 lampes et un tourne-disque de vitesses placé sous le couvercle. Beau meuble. Ce modèle, dont le montage particulièrement soigne assure un très bon rendement aussi bien en radio qu'en phono, est garanti mn an.",
+      "id": "8f9529db-6d6c-4ddd-a4f5-32a9a99b4552",
+      "name": "Rustique Plastique Souris",
+      "imageUrl": "https://picsum.photos/seed/GedeGtmQp/640/640",
+      "price": 59.9,
+      "condition": "used",
+      "stock": 12,
+      "salesChannelId": "ebf4927b-3e04-4dce-9278-43505134c931"
     },
     {
       "description": "Bicyclette à 1 vitesse, pneus 1/2 ballon. Cadre de 52cm. Jantes chromées. Roue Hore.  Moyeux indéréglables. 2 freins sur jantes. Guidon trials. Garde-boue et couvre chaine en acier émaillé. Porte-bagages. Gardejupes. Pédales à blocs caoutchouc. Émail couleur. Selle route cuir. Sacoche avec outillage. Pompe de cadre. Timbre avertisseur.",
-      "id": "550e8ccf-21aa-43c7-afbc-0b21953c3f58",
-      "name": "Incroyable Caoutchouc Pantalon",
-      "imageUrl": "https://picsum.photos/seed/GsDjE6M0f/640/640",
-      "price": 39.92,
+      "id": "85f2060a-f112-4424-a7c7-7feb57769e7f",
+      "name": "Luxueux Doux Chaise",
+      "imageUrl": "https://picsum.photos/seed/WDUh7FblHa/640/640",
+      "price": 57.83,
       "condition": "new",
-      "stock": 18,
-      "salesChannelId": "d781ac95-9d73-466b-8de9-497b07b4bf95"
+      "stock": 6,
+      "salesChannelId": "ebf4927b-3e04-4dce-9278-43505134c931"
     },
     {
       "description": "Ce magnifique radio-phono comprend un excellent récepteur radioL'ensemble, dans une belle ébénisterie teintée palissandre, forme un très phonique 6 lampes et un tourne-disque de vitesses placé sous le couvercle. Beau meuble. Ce modèle, dont le montage particulièrement soigne assure un très bon rendement aussi bien en radio qu'en phono, est garanti mn an.",
-      "id": "6a98582a-b702-4c5f-8379-5929309e74c5",
-      "name": "Génial Bronze Chaussures",
-      "imageUrl": "https://picsum.photos/seed/Lx5R1/640/640",
-      "price": 74.62,
+      "id": "8657691e-fad8-4c6e-9f88-e7631cdd1e3c",
+      "name": "Pratique Acier Ordinateur",
+      "imageUrl": "https://picsum.photos/seed/rnYi9vE/640/640",
+      "price": 96.11,
       "condition": "used",
-      "stock": 18,
-      "salesChannelId": "d781ac95-9d73-466b-8de9-497b07b4bf95"
+      "stock": 14,
+      "salesChannelId": "ebf4927b-3e04-4dce-9278-43505134c931"
     },
     {
-      "description": "Maillot en coton fin à rayures se boutonnant devant pour enfants.",
-      "id": "1d21b97b-6261-40ec-a298-28b9ac7f4b0d",
-      "name": "Raffiné Granit Poulet",
-      "imageUrl": "https://picsum.photos/seed/CL7KZ9i/640/640",
-      "price": 2.34,
+      "description": "Carrosserie en tôle d'acier laqué blanc montée sur roues pour faciliter le déplacement, couvercle laqué blanc, dessus et cuve en métal émaille marron, inaltérable a l'eau de lessive et a la chaleur,",
+      "id": "ba4588ea-974d-420e-97b9-87fc7318ca3b",
+      "name": "Oriental Métal Boule",
+      "imageUrl": "https://picsum.photos/seed/usoyGs1O/640/640",
+      "price": 30.52,
       "condition": "used",
-      "stock": 7,
-      "salesChannelId": "d781ac95-9d73-466b-8de9-497b07b4bf95"
+      "stock": 3,
+      "salesChannelId": "ebf4927b-3e04-4dce-9278-43505134c931"
     },
     {
-      "description": "Lunettes étanches, monture caoutchouc moulé de 1re qual. glaces rondes de 55 mm de diam. en verre clair. Les lunettes protègent les yeux contre les poussières, fumées et gaz industriels et se portent av. nos masques 5862-5864. Pds 60 gr.",
-      "id": "871df29a-e6bf-4d3b-8750-27989444bc6b",
-      "name": "Magnifique Acier Clavier",
-      "imageUrl": "https://picsum.photos/seed/1RggQW3f/640/640",
-      "price": 32.53,
-      "condition": "used",
-      "stock": 10,
-      "salesChannelId": "d781ac95-9d73-466b-8de9-497b07b4bf95"
-    },
-    {
-      "description": "Moteur Villiers. Puissance au frein : 7 HP, 3 vitesses, lancement au pied, éclairage électrique, carrosserie 2 places, coffre à outils, outillage complet, capote et pare-brise.",
-      "id": "6282e159-4fbc-49af-bc3f-c54ca3fc3fc6",
-      "name": "Licencié Bronze Gants",
-      "imageUrl": "https://picsum.photos/seed/cxOda/640/640",
-      "price": 29.95,
-      "condition": "used",
-      "stock": 8,
-      "salesChannelId": "d781ac95-9d73-466b-8de9-497b07b4bf95"
-    },
-    {
-      "description": "Petite griffe à sarcler. 5 dents en acier, largeur 8 cm. poignée estampée, longueur 26 cm. poids 150 gr. Pour ameublir le sol, arracher les herbes entre les plantes ou fleurs cultivées en lignes rapprochées.",
-      "id": "a20ae4db-5e47-46e9-abe2-797fe5f3ca67",
-      "name": "Sans marque Congelé Lard",
-      "imageUrl": "https://picsum.photos/seed/y5T0rZ/640/640",
-      "price": 61.14,
+      "description": "Cadre raccord brasé de 53 ou 58 %. Jantes en acier émaillées. Pneus “Hiron” 700 x 35, garantis 12 mois. Pignon roue libre à emboitement hexagonal. Frein “Hirondelle” sur jante arrière. Garde-boue métal.",
+      "id": "49dc2f8d-4f03-4a93-b666-6308f950bd58",
+      "name": "Pratique Coton Pantalon",
+      "imageUrl": "https://picsum.photos/seed/2QsyFyHEmU/640/640",
+      "price": 90.16,
       "condition": "new",
-      "stock": 13,
-      "salesChannelId": "d781ac95-9d73-466b-8de9-497b07b4bf95"
-    },
-    {
-      "description": "Petite griffe à sarcler. 5 dents en acier, largeur 8 cm. poignée estampée, longueur 26 cm. poids 150 gr. Pour ameublir le sol, arracher les herbes entre les plantes ou fleurs cultivées en lignes rapprochées.",
-      "id": "c8a331d6-dc05-4712-b8cd-2a9b0822da0d",
-      "name": "Moderne Plastique Saucisses",
-      "imageUrl": "https://picsum.photos/seed/N6Dc7iEpm/640/640",
-      "price": 40.4,
-      "condition": "used",
-      "stock": 0,
-      "salesChannelId": "d781ac95-9d73-466b-8de9-497b07b4bf95"
+      "stock": 18,
+      "salesChannelId": "ebf4927b-3e04-4dce-9278-43505134c931"
     },
     {
       "description": "Récepteurs de télévision à haute définition 819 lignes, donnant une image très nette et d'un contraste agréable ne fatiguant pas la vue, le montage de la partie radio donne un son absolument remarquable.",
-      "id": "18496c0c-9111-42cd-bf30-ace9cee635ef",
-      "name": "Recyclé Granit Boule",
-      "imageUrl": "https://picsum.photos/seed/ZzSlPM/640/640",
-      "price": 54.86,
+      "id": "ff4c499b-0c58-4168-bff7-7e9c82eba1fd",
+      "name": "Petit Plastique Ordinateur",
+      "imageUrl": "https://picsum.photos/seed/j5CZSN/640/640",
+      "price": 56.54,
       "condition": "new",
-      "stock": 11,
-      "salesChannelId": "d781ac95-9d73-466b-8de9-497b07b4bf95"
+      "stock": 13,
+      "salesChannelId": "510a42c4-7ec1-4ddd-bc9b-fbe51789295d"
     },
     {
-      "description": "Bicyclette à 1 vitesse, pneus 1/2 ballon. Cadre de 52cm. Jantes chromées. Roue Hore.  Moyeux indéréglables. 2 freins sur jantes. Guidon trials. Garde-boue et couvre chaine en acier émaillé. Porte-bagages. Gardejupes. Pédales à blocs caoutchouc. Émail couleur. Selle route cuir. Sacoche avec outillage. Pompe de cadre. Timbre avertisseur.",
-      "id": "826136cf-1d7f-429a-84e4-fbe041418a0c",
-      "name": "Rustique Caoutchouc Lard",
-      "imageUrl": "https://picsum.photos/seed/rsTaJ3R/640/640",
-      "price": 13.31,
-      "condition": "new",
-      "stock": 17,
-      "salesChannelId": "d781ac95-9d73-466b-8de9-497b07b4bf95"
+      "description": "Récepteurs de télévision à haute définition 819 lignes, donnant une image très nette et d'un contraste agréable ne fatiguant pas la vue, le montage de la partie radio donne un son absolument remarquable.",
+      "id": "6eba6275-9a10-4d60-b857-810e80757faa",
+      "name": "Rustique Frais Vélo",
+      "imageUrl": "https://picsum.photos/seed/X0oZcmw/640/640",
+      "price": 20.79,
+      "condition": "used",
+      "stock": 0,
+      "salesChannelId": "510a42c4-7ec1-4ddd-bc9b-fbe51789295d"
     },
     {
       "description": "Petite griffe à sarcler. 5 dents en acier, largeur 8 cm. poignée estampée, longueur 26 cm. poids 150 gr. Pour ameublir le sol, arracher les herbes entre les plantes ou fleurs cultivées en lignes rapprochées.",
-      "id": "c33c2cd4-2b54-4a9d-978d-a4945de0c5b9",
-      "name": "Magnifique Bois Souris",
-      "imageUrl": "https://picsum.photos/seed/9MKgKI77k/640/640",
-      "price": 28.5,
+      "id": "47e97e65-4626-4c19-95c3-599271bcbbe6",
+      "name": "Licencié Coton Vélo",
+      "imageUrl": "https://picsum.photos/seed/vEEki4WK/640/640",
+      "price": 79.47,
       "condition": "used",
-      "stock": 12,
-      "salesChannelId": "be5007c3-c21e-40d6-8b2c-91c52a7f49f1"
+      "stock": 6,
+      "salesChannelId": "510a42c4-7ec1-4ddd-bc9b-fbe51789295d"
+    },
+    {
+      "description": "Lunettes étanches, monture caoutchouc moulé de 1re qual. glaces rondes de 55 mm de diam. en verre clair. Les lunettes protègent les yeux contre les poussières, fumées et gaz industriels et se portent av. nos masques 5862-5864. Pds 60 gr.",
+      "id": "43b8b6de-ef81-4435-aaa7-a157aded3a85",
+      "name": "Oriental Congelé Table",
+      "imageUrl": "https://picsum.photos/seed/Qacy8/640/640",
+      "price": 82.4,
+      "condition": "new",
+      "stock": 16,
+      "salesChannelId": "510a42c4-7ec1-4ddd-bc9b-fbe51789295d"
     },
     {
       "description": "Ces médailles et épingles sont en argent avec patine artistique. Elles ont été composées et frappées spécialement dans les ateliers de l'État pour la Société l'Hirondelle.",
-      "id": "d09b5f93-f11e-44cc-b475-f92f4c7fe25d",
-      "name": "Génial Congelé Vélo",
-      "imageUrl": "https://picsum.photos/seed/9gtmfUvI/640/640",
-      "price": 42.56,
+      "id": "372113d5-dc36-4bf2-8a16-7208f1aae9d8",
+      "name": "Luxueux Bois Pantalon",
+      "imageUrl": "https://picsum.photos/seed/9cPdEE2i/640/640",
+      "price": 92.81,
       "condition": "used",
-      "stock": 0,
-      "salesChannelId": "be5007c3-c21e-40d6-8b2c-91c52a7f49f1"
+      "stock": 7,
+      "salesChannelId": "510a42c4-7ec1-4ddd-bc9b-fbe51789295d"
     },
     {
       "description": "Montre-bracelet, dite “d'Aviateur”, métal inaltérable, diam. 435ym. Mouvement de précision chronographe, cadran avec grande aiguille trotteuse, permettant la lecture 1/25de seconde.",
-      "id": "dce25a41-4771-4aa2-8df9-9f9c009aa615",
-      "name": "Savoureux Métal Serviettes",
-      "imageUrl": "https://picsum.photos/seed/QVRB2ns/640/640",
-      "price": 79.19,
-      "condition": "new",
-      "stock": 3,
-      "salesChannelId": "be5007c3-c21e-40d6-8b2c-91c52a7f49f1"
-    },
-    {
-      "description": "Lunettes étanches, monture caoutchouc moulé de 1re qual. glaces rondes de 55 mm de diam. en verre clair. Les lunettes protègent les yeux contre les poussières, fumées et gaz industriels et se portent av. nos masques 5862-5864. Pds 60 gr.",
-      "id": "f40c884b-093f-4a9c-a981-53905dcd563f",
-      "name": "Moderne Caoutchouc Pantalon",
-      "imageUrl": "https://picsum.photos/seed/hmC4cieF/640/640",
-      "price": 14.4,
-      "condition": "new",
-      "stock": 20,
-      "salesChannelId": "be5007c3-c21e-40d6-8b2c-91c52a7f49f1"
-    },
-    {
-      "description": "Ces médailles et épingles sont en argent avec patine artistique. Elles ont été composées et frappées spécialement dans les ateliers de l'État pour la Société l'Hirondelle.",
-      "id": "c4ef8ca9-d194-4d79-abe8-9cf1286a2bac",
-      "name": "Sans marque Coton Clavier",
-      "imageUrl": "https://picsum.photos/seed/Ltor5z/640/640",
-      "price": 88.56,
+      "id": "a677dbaa-2374-4ce9-9eac-5e92eca167d4",
+      "name": "Magnifique Frais Souris",
+      "imageUrl": "https://picsum.photos/seed/3SCdnEul/640/640",
+      "price": 71.92,
       "condition": "used",
-      "stock": 7,
-      "salesChannelId": "be5007c3-c21e-40d6-8b2c-91c52a7f49f1"
-    },
-    {
-      "description": "Lanterne cuivre fort, finement nickelé, chute d'eau réglable, suspension antivibratrice, projecteur diamètre cm2, avec verre bombé. Durée d'éclairage 3 heures. Poids 395 grammes.",
-      "id": "299b52d4-79ef-43e6-9685-c231f03e6169",
-      "name": "Incroyable Métal Chaussures",
-      "imageUrl": "https://picsum.photos/seed/Xnw1w/640/640",
-      "price": 95.95,
-      "condition": "new",
-      "stock": 15,
-      "salesChannelId": "be5007c3-c21e-40d6-8b2c-91c52a7f49f1"
-    },
-    {
-      "description": "Maillot en coton fin à rayures se boutonnant devant pour enfants.",
-      "id": "26013b99-df40-4d42-8867-0a9687f476ed",
-      "name": "Oriental Bois Chemise",
-      "imageUrl": "https://picsum.photos/seed/PW2coZ7/640/640",
-      "price": 69.48,
-      "condition": "used",
-      "stock": 5,
-      "salesChannelId": "be5007c3-c21e-40d6-8b2c-91c52a7f49f1"
-    },
-    {
-      "description": "Maillot en coton fin à rayures se boutonnant devant pour enfants.",
-      "id": "a9b39b0c-3234-4e93-9313-12c70d324850",
-      "name": "Sur mesure Acier Serviettes",
-      "imageUrl": "https://picsum.photos/seed/YhRLkBf9f/640/640",
-      "price": 23.62,
-      "condition": "new",
-      "stock": 15,
-      "salesChannelId": "be5007c3-c21e-40d6-8b2c-91c52a7f49f1"
-    },
-    {
-      "description": "Lanterne cuivre fort, finement nickelé, chute d'eau réglable, suspension antivibratrice, projecteur diamètre cm2, avec verre bombé. Durée d'éclairage 3 heures. Poids 395 grammes.",
-      "id": "f3a77207-2c22-4667-a898-01049a0933ca",
-      "name": "Sans marque Doux Chaise",
-      "imageUrl": "https://picsum.photos/seed/o44Z11N/640/640",
-      "price": 58.11,
-      "condition": "used",
-      "stock": 15,
-      "salesChannelId": "be5007c3-c21e-40d6-8b2c-91c52a7f49f1"
-    },
-    {
-      "description": "Rasoir de sûreté “Prima” tout en laiton massif nickelé chromé, manche moleté bien en main. Peigne et contre-peigne galbés tenant tout d'une pièce, fermeture à charnière, blocage instantané de la lame.",
-      "id": "1ccade42-d96b-4a65-8b38-d58c029d3a69",
-      "name": "Artisanal Caoutchouc Gants",
-      "imageUrl": "https://picsum.photos/seed/f17BFpq/640/640",
-      "price": 5.77,
-      "condition": "new",
       "stock": 10,
-      "salesChannelId": "be5007c3-c21e-40d6-8b2c-91c52a7f49f1"
-    },
-    {
-      "description": "Ces médailles et épingles sont en argent avec patine artistique. Elles ont été composées et frappées spécialement dans les ateliers de l'État pour la Société l'Hirondelle.",
-      "id": "77b2a8a0-ce35-4262-bd5a-e7cb856cc84e",
-      "name": "Fantastique Métal Lard",
-      "imageUrl": "https://picsum.photos/seed/9ynIZ/640/640",
-      "price": 3.36,
-      "condition": "used",
-      "stock": 14,
-      "salesChannelId": "85fdc9f6-d0ea-4905-ab4f-6f1f7dcaac87"
+      "salesChannelId": "52655c59-d1c3-4889-846c-a3fc44ff7d5a"
     },
     {
       "description": "Maillot en coton fin à rayures se boutonnant devant pour enfants.",
-      "id": "5a8d2724-9de1-4f56-8248-f50aac5bb4fc",
-      "name": "Intelligent Béton Pantalon",
-      "imageUrl": "https://picsum.photos/seed/lOJu2Duclz/640/640",
-      "price": 30.54,
+      "id": "6790aa94-a346-46a9-804b-3536c2346fb1",
+      "name": "Générique Acier Chaussures",
+      "imageUrl": "https://picsum.photos/seed/T9HGr/640/640",
+      "price": 83.14,
       "condition": "new",
-      "stock": 15,
-      "salesChannelId": "85fdc9f6-d0ea-4905-ab4f-6f1f7dcaac87"
+      "stock": 8,
+      "salesChannelId": "52655c59-d1c3-4889-846c-a3fc44ff7d5a"
     },
     {
-      "description": "Petite griffe à sarcler. 5 dents en acier, largeur 8 cm. poignée estampée, longueur 26 cm. poids 150 gr. Pour ameublir le sol, arracher les herbes entre les plantes ou fleurs cultivées en lignes rapprochées.",
-      "id": "f03de990-c845-4241-a1ec-37e3d4e28c8c",
-      "name": "Ergonomique Métal Gants",
-      "imageUrl": "https://picsum.photos/seed/MNlv1N/640/640",
-      "price": 14.28,
+      "description": "Maillot en coton fin à rayures se boutonnant devant pour enfants.",
+      "id": "8eee7ff8-6def-4b7b-81a4-3921f29ae151",
+      "name": "Élégant Bois Table",
+      "imageUrl": "https://picsum.photos/seed/SSMAR/640/640",
+      "price": 61.62,
       "condition": "used",
+      "stock": 20,
+      "salesChannelId": "52655c59-d1c3-4889-846c-a3fc44ff7d5a"
+    },
+    {
+      "description": "Carrosserie en tôle d'acier laqué blanc montée sur roues pour faciliter le déplacement, couvercle laqué blanc, dessus et cuve en métal émaille marron, inaltérable a l'eau de lessive et a la chaleur,",
+      "id": "50e1fa92-f851-47e5-9266-a710cfb9da1c",
+      "name": "Incroyable Doux Saucisses",
+      "imageUrl": "https://picsum.photos/seed/MAycOU/640/640",
+      "price": 97.72,
+      "condition": "used",
+      "stock": 15,
+      "salesChannelId": "52655c59-d1c3-4889-846c-a3fc44ff7d5a"
+    },
+    {
+      "description": "Carrosserie en tôle d'acier laqué blanc montée sur roues pour faciliter le déplacement, couvercle laqué blanc, dessus et cuve en métal émaille marron, inaltérable a l'eau de lessive et a la chaleur,",
+      "id": "e496b9fc-0838-4c0a-9baa-869889ca122b",
+      "name": "Incroyable Granit Thon",
+      "imageUrl": "https://picsum.photos/seed/jwtHFkP8/640/640",
+      "price": 72.84,
+      "condition": "new",
       "stock": 18,
-      "salesChannelId": "85fdc9f6-d0ea-4905-ab4f-6f1f7dcaac87"
-    },
-    {
-      "description": "Maillot en coton fin à rayures se boutonnant devant pour enfants.",
-      "id": "2515b758-e077-4c8e-bcad-7f98a6c4bbb9",
-      "name": "Électronique Granit Ordinateur",
-      "imageUrl": "https://picsum.photos/seed/oG8C1AnM/640/640",
-      "price": 98.1,
-      "condition": "new",
-      "stock": 17,
-      "salesChannelId": "85fdc9f6-d0ea-4905-ab4f-6f1f7dcaac87"
-    },
-    {
-      "description": "Bicyclette à 1 vitesse, pneus 1/2 ballon. Cadre de 52cm. Jantes chromées. Roue Hore.  Moyeux indéréglables. 2 freins sur jantes. Guidon trials. Garde-boue et couvre chaine en acier émaillé. Porte-bagages. Gardejupes. Pédales à blocs caoutchouc. Émail couleur. Selle route cuir. Sacoche avec outillage. Pompe de cadre. Timbre avertisseur.",
-      "id": "43707dd9-f152-4e18-9092-67e0fefed086",
-      "name": "Raffiné Bronze Lard",
-      "imageUrl": "https://picsum.photos/seed/gflqH/640/640",
-      "price": 14.67,
-      "condition": "used",
-      "stock": 13,
-      "salesChannelId": "85fdc9f6-d0ea-4905-ab4f-6f1f7dcaac87"
-    },
-    {
-      "description": "Bicyclette à 1 vitesse, pneus 1/2 ballon. Cadre de 52cm. Jantes chromées. Roue Hore.  Moyeux indéréglables. 2 freins sur jantes. Guidon trials. Garde-boue et couvre chaine en acier émaillé. Porte-bagages. Gardejupes. Pédales à blocs caoutchouc. Émail couleur. Selle route cuir. Sacoche avec outillage. Pompe de cadre. Timbre avertisseur.",
-      "id": "553c12a0-fb82-41c6-bc61-3ce81f4911d7",
-      "name": "Électronique Bronze Pantalon",
-      "imageUrl": "https://picsum.photos/seed/RUJdefqGN/640/640",
-      "price": 9.4,
-      "condition": "new",
-      "stock": 15,
-      "salesChannelId": "85fdc9f6-d0ea-4905-ab4f-6f1f7dcaac87"
-    },
-    {
-      "description": "Tous nos appareils sont blindés pour que leur rayonnement ne trouble pas les récepteurs radiophoniques, et ils fonctionnent sur courant alternatif 50 riodes 110 et 220 volts. Ils sont garantis pendant 1 an; toutefois, suivant la règle, le tube cathodique est garanti pour 6 mois seulement.",
-      "id": "1803a1f3-fcd2-47ea-9786-aaebc2b34b59",
-      "name": "Licencié Congelé Pizza",
-      "imageUrl": "https://picsum.photos/seed/OUplTe/640/640",
-      "price": 86.73,
-      "condition": "new",
-      "stock": 15,
-      "salesChannelId": "85fdc9f6-d0ea-4905-ab4f-6f1f7dcaac87"
-    },
-    {
-      "description": "Lunettes étanches, monture caoutchouc moulé de 1re qual. glaces rondes de 55 mm de diam. en verre clair. Les lunettes protègent les yeux contre les poussières, fumées et gaz industriels et se portent av. nos masques 5862-5864. Pds 60 gr.",
-      "id": "6fd0ac3c-7b6f-4ceb-80ae-4c1d1543bf83",
-      "name": "Raffiné Métal Poulet",
-      "imageUrl": "https://picsum.photos/seed/q2w0K/640/640",
-      "price": 13.62,
-      "condition": "used",
-      "stock": 1,
-      "salesChannelId": "85fdc9f6-d0ea-4905-ab4f-6f1f7dcaac87"
-    },
-    {
-      "description": "Rasoir de sûreté “Prima” tout en laiton massif nickelé chromé, manche moleté bien en main. Peigne et contre-peigne galbés tenant tout d'une pièce, fermeture à charnière, blocage instantané de la lame.",
-      "id": "ab2cbb10-4639-42ef-bedc-a96a25618430",
-      "name": "Rustique Coton Fromage",
-      "imageUrl": "https://picsum.photos/seed/TKRETU/640/640",
-      "price": 1.56,
-      "condition": "used",
-      "stock": 14,
-      "salesChannelId": "85fdc9f6-d0ea-4905-ab4f-6f1f7dcaac87"
-    },
-    {
-      "description": "Rasoir de sûreté “Prima” tout en laiton massif nickelé chromé, manche moleté bien en main. Peigne et contre-peigne galbés tenant tout d'une pièce, fermeture à charnière, blocage instantané de la lame.",
-      "id": "82c887a5-1b25-422b-a4d5-b52ad522a9ca",
-      "name": "Pratique Congelé Table",
-      "imageUrl": "https://picsum.photos/seed/o1HJD/640/640",
-      "price": 27.19,
-      "condition": "new",
-      "stock": 0,
-      "salesChannelId": "85fdc9f6-d0ea-4905-ab4f-6f1f7dcaac87"
+      "salesChannelId": "52655c59-d1c3-4889-846c-a3fc44ff7d5a"
     }
   ]
 }
