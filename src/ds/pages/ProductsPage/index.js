@@ -2,7 +2,12 @@ import { Box } from "@mui/material";
 import { DataGrid } from "@mui/x-data-grid";
 import { useProducts } from "../../../hooks";
 
-import { ConditionProductChip, Price, ProductImage } from "../../atoms";
+import {
+  ConditionProductChip,
+  Price,
+  ProductImage,
+  ProductLink,
+} from "../../atoms";
 
 const columns = [
   {
@@ -14,6 +19,7 @@ const columns = [
   {
     field: "name",
     headerName: "Produit",
+    renderCell: ProductLink,
     width: 350,
   },
   {
@@ -44,7 +50,7 @@ export default function ProductsPage() {
       <DataGrid
         loading={isLoading}
         columns={columns}
-        rows={products || []}
+        rows={products}
         disableRowSelectionOnClick
       />
     </Box>

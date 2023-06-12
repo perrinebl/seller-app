@@ -2,11 +2,18 @@ import { useQuery } from "react-query";
 
 import api from "../../api";
 
-export default function useProducts() {
+export default function useProducts({ productId } = {}) {
+  const queryKey = productId ? ["products", { productId }] : ["products"];
+  const productApiUrl = productId ? `products/${productId}` : "products";
+
   const queryResult = useQuery(
-    ["products"],
-    async () => await api.get("products").json()
+    queryKey,
+    async () => await api.get(productApiUrl).json()
   );
 
-  return { ...queryResult, products: queryResult.data };
+  const resource = productId
+    ? { product: queryResult.data || [] }
+    : { products: queryResult.data || [] };
+
+  return { ...queryResult, ...resource };
 }
