@@ -1,8 +1,8 @@
 import { createTheme, ThemeProvider } from "@mui/material";
 import { render } from "@testing-library/react";
-import { node } from "prop-types";
+import { arrayOf, node, string } from "prop-types";
 import { QueryClient, QueryClientProvider } from "react-query";
-import { MemoryRouter } from "react-router-dom";
+import { MemoryRouter, Route, Routes } from "react-router-dom";
 
 const client = new QueryClient();
 
@@ -10,11 +10,19 @@ const client = new QueryClient();
  * AppTechnicalContext
  * We SHOULD use the exact same order than inside our <App /> for all our providers.
  */
-const AppTechnicalContext = ({ children }) => {
+const AppTechnicalContext = ({
+  children,
+  path = "/",
+  initialEntries = ["/"],
+}) => {
   return (
     <QueryClientProvider client={client}>
       <ThemeProvider theme={createTheme()}>
-        <MemoryRouter>{children}</MemoryRouter>
+        <MemoryRouter initialEntries={initialEntries}>
+          <Routes>
+            <Route path={path} element={children} />
+          </Routes>
+        </MemoryRouter>
       </ThemeProvider>
     </QueryClientProvider>
   );
@@ -22,10 +30,22 @@ const AppTechnicalContext = ({ children }) => {
 
 AppTechnicalContext.propTypes = {
   children: node,
+  path: string,
+  initialEntries: arrayOf(string),
 };
 
-const customRender = (ui, options) =>
-  render(ui, { wrapper: AppTechnicalContext, ...options });
+const customRender = (component, options = {}) => {
+  const { path, initialEntries, ...renderOptions } = options;
+
+  return render(component, {
+    wrapper: ({ children }) => (
+      <AppTechnicalContext path={path} initialEntries={initialEntries}>
+        {children}
+      </AppTechnicalContext>
+    ),
+    ...renderOptions,
+  });
+};
 
 // re-export everything
 // eslint-disable-next-line import/export
